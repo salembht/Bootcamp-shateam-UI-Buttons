@@ -1,0 +1,20 @@
+.btn{
+    padding:  5px 7px;
+    border: none;
+}
+.btn-save{
+    color: rgb(187, 187, 254);
+    background-color: blue;
+} 
+.btn-delete{
+    background-color: red;
+    color: white;
+} 
+.btn-success{
+    background-color: green;
+    color: white;
+}
+.btn-edit{
+    background-color: #ffd979;
+    
+}
