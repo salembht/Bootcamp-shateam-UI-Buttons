@@ -1,20 +1,56 @@
 .btn{
     padding:  5px 7px;
     border: none;
+    cursor: pointer;
 }
+
 .btn-save{
-    color: rgb(187, 187, 254);
+    color: white;
     background-color: blue;
 } 
-.btn-delete{
+
+.btn-delete {
     background-color: red;
     color: white;
 } 
-.btn-success{
+
+.btn-success {
     background-color: green;
     color: white;
 }
+
 .btn-edit{
     background-color: #ffd979;
-    
+}
+
+/* Hover btn */
+.btn:hover:not(.btn:disabled) {
+    opacity: 0.8;
+}
+
+/* Disabled btn */
+.btn:disabled {
+    background-color: #dbd9d9;
+    cursor: not-allowed;
+}
+
+/* Active Btn */
+.btn-save:active,
+.btn-save:focus {
+    background-color: navy;
+}
+
+.btn-delete:active,
+.btn-delete:focus {
+    background-color: rgb(153, 1, 1);
+}
+
+.btn-success:active,
+.btn-success:focus {
+    background-color: rgb(1, 95, 1);
+}
+
+.btn-edit:active,
+.btn-edit:focus {
+    background-color: #fac339;
 }
