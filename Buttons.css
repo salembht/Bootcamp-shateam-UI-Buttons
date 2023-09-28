@@ -3,18 +3,33 @@
     border: none;
 }
 .btn-save{
-    color: rgb(187, 187, 254);
+    color: white;
     background-color: blue;
+}
+.btn-save-soft{
+    color: blue;
+    background-color: rgb(233, 255, 255);
 } 
 .btn-delete{
     background-color: red;
     color: white;
 } 
+.btn-delete-soft{
+    color: red;
+    background-color: rgb(255, 233, 233);
+}
 .btn-success{
     background-color: green;
     color: white;
 }
+.btn-success-soft{
+    color: green;
+    background-color: rgb(233, 255, 233);
+}
 .btn-edit{
-    background-color: #ffd979;
-    
+    background-color: #ffd979;  
+}
+.btn-edit-soft{
+    background-color: rgb(255, 247, 228); 
+    color: #ffd979; 
 }
