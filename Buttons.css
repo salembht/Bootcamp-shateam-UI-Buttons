@@ -7,6 +7,10 @@
 .btn-save{
     color: white;
     background-color: blue;
+}
+.btn-save-soft{
+    color: blue;
+    background-color: rgb(233, 255, 255);
 } 
 
 .btn-delete {
@@ -21,6 +25,30 @@
 
 .btn-edit{
     background-color: #ffd979;
+}
+
+.btn-delete-soft {
+    color: red;
+    background-color: rgb(255, 233, 233);
+}
+
+.btn-success {
+    background-color: green;
+    color: white;
+}
+
+.btn-success-soft {
+    color: green;
+    background-color: rgb(233, 255, 233);
+}
+
+.btn-edit {
+    background-color: #ffd979;
+}
+
+.btn-edit-soft {
+    background-color: rgb(255, 247, 228);
+    color: #ffd979;
 }
 
 /* Hover btn */
@@ -53,4 +81,25 @@
 .btn-edit:active,
 .btn-edit:focus {
     background-color: #fac339;
+}
+
+.btn-success-soft:focus,
+.btn-success-soft:active {
+    background-color: rgb(173, 250, 173);
+}
+
+.btn-save-soft:focus,
+.btn-save-soft:active {
+    background-color:rgb(174, 252, 252);
+}
+
+.btn-delete-soft:focus,
+.btn-delete-soft:active {
+    background-color: rgb(247, 148, 148);
+}
+
+.btn-edit-soft:focus,
+.btn-edit-soft:active {
+    background-color: rgb(255, 233, 180);
+    color: #fac339;
 }
