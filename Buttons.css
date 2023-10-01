@@ -104,16 +104,16 @@
     color: #fac339;
 }
 
-.is-medium{
+.btn-medium{
     font-size: 1.5rem;
     padding: 5px 20px;
 }
-.is-larger{
+.btn-larger{
     font-size: 1.75rem;
     padding: 5px 20px;
 }
 
-.is-Xlarger{
+.btn-xlarger{
     font-size: 2.5rem;
     padding: 5px 20px;
 }
