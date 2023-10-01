@@ -1,3 +1,13 @@
+:root{
+    --sha-primary: #0d6efd;
+    --sha-secondary: #6c757d;
+    --sha-success: #198754;
+    --sha-info: #0dcaf0;
+    --sha-warning: #ffc107;
+    --sha-danger: #dc3545;
+    --sha-light: #f8f9fa;
+    --sha-dark: #212529;
+}
 .btn{
     padding:  5px 20px;
     border: none;
@@ -6,7 +16,7 @@
 
 .btn-save{
     color: white;
-    background-color: blue;
+    background-color: var(--sha-primary);
 }
 .btn-save-soft{
     color: blue;
@@ -14,26 +24,16 @@
 } 
 
 .btn-delete {
-    background-color: red;
-    color: white;
+    background-color: var(--sha-danger);
+    color: var(--sha-light);
 } 
-
-.btn-success {
-    background-color: green;
-    color: white;
-}
-
-.btn-edit{
-    background-color: #ffd979;
-}
 
 .btn-delete-soft {
     color: red;
     background-color: rgb(255, 233, 233);
 }
-
 .btn-success {
-    background-color: green;
+    background-color: var(--sha-success);
     color: white;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .btn-edit {
-    background-color: #ffd979;
+    background-color: var(--sha-warning);
 }
 
 .btn-edit-soft {
