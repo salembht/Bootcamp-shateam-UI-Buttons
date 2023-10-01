@@ -2,25 +2,66 @@
     --sha-primary: #0d6efd;
     --sha-secondary: #6c757d;
     --sha-success: #198754;
-    --sha-info: #0dcaf0;
     --sha-warning: #ffc107;
     --sha-danger: #dc3545;
     --sha-light: #f8f9fa;
     --sha-dark: #212529;
+    
+    --sha-primary-soft: #ebf3ff;
+    --sha-secondary-soft: #6c757d;
+    --sha-success-soft: #d7ffec;
+    --sha-warning-soft: #fff4d1;
+    --sha-danger-soft: #ffe4e6;
+
+    --sha-primaty-active: #0951bd;
+    --sha-secondary-active: #5c6268;
+    --sha-success-active: #146841;
+    --sha-warning-active: #daa506;
+    --sha-danger-active: #c20f21;
+    --sha-light-active: #d4d4d4;
+    --sha-dark-active: #1a1f24;
+
+    --sha-primaty-soft-active: #d8e7fd;
+    --sha-secondary-soft-active: #5c646b;
+    --sha-success-soft-active: #bbfcde;
+    --sha-warning-soft-active: #ffefba;
+    --sha-danger-soft-active: #fcc8cc;
+
+    --sha-primaty-hover: #3a7cdf;
+    --sha-secondary-hover: #9fa7af;
+    --sha-success-hover: #27a86c;
+    --sha-info-hover: #48d5f1;
+    --sha-warning-hover: #ffce3d;
+    --sha-danger-hover: #ff4b5d;
+    --sha-light-hover: #f7f6f6;
+    --sha-dark-hover: #283038;
+
+    --sha-primaty-soft-hover: #d8e7fd;
+    --sha-secondary-soft-hover: #5c646b;
+    --sha-success-soft-hover: #bbfcde;
+    --sha-warning-soft-hover: #ffefba;
+    --sha-danger-soft-hover: #fcc8cc;
 }
-.btn{
-    padding:  5px 20px;
+
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    padding: 7px 15px;
+    min-width: 40px;
+    min-height: 40px;
     border: none;
     cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 3px;
 }
 
 .btn-save{
-    color: white;
+    color: var(--sha-light);
     background-color: var(--sha-primary);
 }
 .btn-save-soft{
-    color: blue;
-    background-color: rgb(233, 255, 255);
+    color: var(--sha-primary);
+    background-color: var(--sha-primary-soft);
 } 
 
 .btn-delete {
@@ -29,17 +70,17 @@
 } 
 
 .btn-delete-soft {
-    color: red;
-    background-color: rgb(255, 233, 233);
+    color: var(--sha-danger);
+    background-color: var(--sha-danger-soft);
 }
 .btn-success {
     background-color: var(--sha-success);
-    color: white;
+    color: var(--sha-light);
 }
 
 .btn-success-soft {
-    color: green;
-    background-color: rgb(233, 255, 233);
+    color: var(--sha-success);
+    background-color: var(--sha-success-soft);
 }
 
 .btn-edit {
@@ -47,8 +88,8 @@
 }
 
 .btn-edit-soft {
-    background-color: rgb(255, 247, 228);
-    color: #a5a3a3;
+    background-color: var(--sha-warning-soft);
+    color: var(--sha-secondary);
 }
 
 /* Hover btn */
@@ -56,52 +97,86 @@
     opacity: 0.8;
 }
 
+.btn-save:hover {
+    background-color: var(--sha-primaty-hover);
+}
+
+.btn-delete:hover {
+    background-color: var(--sha-danger-hover);
+}
+
+.btn-success:hover {
+    background-color: var(--sha-success-hover);
+}
+
+.btn-edit:hover {
+    background-color: var(--sha-warning-hover);
+}
+
+.btn-success-soft:hover {
+    background-color: var(--sha-success-soft-hover);
+}
+
+.btn-save-soft:hover {
+    background-color: var(--sha-primaty-soft-hover);
+}
+
+.btn-delete-soft:hover {
+    background-color: var(--sha-danger-soft-hover);
+    ;
+}
+
+.btn-edit-soft:hover {
+    background-color: var(--sha-warning-soft-hover);
+    color: var(--sha-secondary);
+}
+
 /* Disabled btn */
 .btn:disabled {
-    background-color: #dbd9d9;
+    background-color: var(--sha-light-active);
     cursor: not-allowed;
 }
 
 /* Active Btn */
 .btn-save:active,
 .btn-save:focus {
-    background-color: navy;
+    background-color: var(--sha-primaty-active);
 }
 
 .btn-delete:active,
 .btn-delete:focus {
-    background-color: rgb(153, 1, 1);
+    background-color: var(--sha-danger-active);
 }
 
 .btn-success:active,
 .btn-success:focus {
-    background-color: rgb(1, 95, 1);
+    background-color: var(--sha-success-active);
 }
 
 .btn-edit:active,
 .btn-edit:focus {
-    background-color: #fac339;
+    background-color: var(--sha-warning-active);
 }
 
 .btn-success-soft:focus,
 .btn-success-soft:active {
-    background-color: rgb(173, 250, 173);
+    background-color: var(--sha-success-soft-active);
 }
 
 .btn-save-soft:focus,
 .btn-save-soft:active {
-    background-color:rgb(174, 252, 252);
+    background-color: var(--sha-primaty-soft-active);
 }
 
 .btn-delete-soft:focus,
 .btn-delete-soft:active {
-    background-color: rgb(247, 148, 148);
+    background-color: var(--sha-danger-soft-active);;
 }
 
 .btn-edit-soft:focus,
 .btn-edit-soft:active {
-    background-color: rgb(255, 233, 180);
-    color: #c0beb9;
+    background-color: var(--sha-warning-soft-active);;
+    color: var(--sha-secondary);
 }
 
 .btn-medium{
