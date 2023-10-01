@@ -48,7 +48,7 @@
 
 .btn-edit-soft {
     background-color: rgb(255, 247, 228);
-    color: #ffd979;
+    color: #a5a3a3;
 }
 
 /* Hover btn */
@@ -101,7 +101,7 @@
 .btn-edit-soft:focus,
 .btn-edit-soft:active {
     background-color: rgb(255, 233, 180);
-    color: #fac339;
+    color: #c0beb9;
 }
 
 .btn-medium{
@@ -122,6 +122,7 @@
     display: block;
     width: 100%;
 }
+
 .rounded-5{
     border-radius: 5px;
 }
